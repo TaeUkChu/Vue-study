@@ -37,10 +37,12 @@
       "plugin:vue/vue3-essential",
       "@vue/standard"
     ],
+    "rules": {
+      "space-before-function-paren": "off"
+    },
     "parserOptions": {
       "parser": "@babel/eslint-parser"
-    },
-    "rules": {}
+    }
   },
   "browserslist": [
     "> 1%",
